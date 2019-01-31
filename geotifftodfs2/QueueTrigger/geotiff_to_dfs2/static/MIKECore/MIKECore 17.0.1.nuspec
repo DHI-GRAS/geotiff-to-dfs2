@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MIKECore</id>
+    <version>17.0.1</version>
+    <title>MIKE Core libraries</title>
+    <authors>DHI</authors>
+    <owners>DHI</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MIKE Core libraries for functionalities to read DFS and PFS files, EUM unit management, projections and drawing of maps.</description>
+    <summary>MIKE Core libraries for functionalities to read DFS and PFS files, EUM unit management, projections and drawing of maps.</summary>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="build\MIKECore.targets" target="build\MIKECore.targets" />
+    <file src="lib\net471\DHI.Chart.Map.dll" target="lib\net471\DHI.Chart.Map.dll" />
+    <file src="lib\net471\DHI.DHIfl.dll" target="lib\net471\DHI.DHIfl.dll" />
+    <file src="lib\net471\DHI.Generic.MikeZero.DFS.dll" target="lib\net471\DHI.Generic.MikeZero.DFS.dll" />
+    <file src="lib\net471\DHI.Generic.MikeZero.EUM.dll" target="lib\net471\DHI.Generic.MikeZero.EUM.dll" />
+    <file src="lib\net471\DHI.PFS.dll" target="lib\net471\DHI.PFS.dll" />
+    <file src="lib\net471\DHI.Projections.dll" target="lib\net471\DHI.Projections.dll" />
+    <file src="native\ams2004.dll" target="native\ams2004.dll" />
+    <file src="native\amsT2004.dll" target="native\amsT2004.dll" />
+    <file src="native\concrt140.dll" target="native\concrt140.dll" />
+    <file src="native\DHIfl.dll" target="native\DHIfl.dll" />
+    <file src="native\ellipsoid.pfs" target="native\ellipsoid.pfs" />
+    <file src="native\eum.dll" target="native\eum.dll" />
+    <file src="native\EUM.xml" target="native\EUM.xml" />
+    <file src="native\libcrypto-1_1-x64.dll" target="native\libcrypto-1_1-x64.dll" />
+    <file src="native\libssl-1_1-x64.dll" target="native\libssl-1_1-x64.dll" />
+    <file src="native\map_projection.pfs" target="native\map_projection.pfs" />
+    <file src="native\mfc140.dll" target="native\mfc140.dll" />
+    <file src="native\mfc140u.dll" target="native\mfc140u.dll" />
+    <file src="native\mfcm140u.dll" target="native\mfcm140u.dll" />
+    <file src="native\mfcmifc80.dll" target="native\mfcmifc80.dll" />
+    <file src="native\msvcp140.dll" target="native\msvcp140.dll" />
+    <file src="native\msvcp140_1.dll" target="native\msvcp140_1.dll" />
+    <file src="native\msvcp140_2.dll" target="native\msvcp140_2.dll" />
+    <file src="native\MzCart.dll" target="native\MzCart.dll" />
+    <file src="native\MzChart.dll" target="native\MzChart.dll" />
+    <file src="native\MzEncrypt.dll" target="native\MzEncrypt.dll" />
+    <file src="native\MzLanguage.dll" target="native\MzLanguage.dll" />
+    <file src="native\pfs2004.dll" target="native\pfs2004.dll" />
+    <file src="native\ptlC.dll" target="native\ptlC.dll" />
+    <file src="native\state_plane_nad27.pfs" target="native\state_plane_nad27.pfs" />
+    <file src="native\state_plane_nad83.pfs" target="native\state_plane_nad83.pfs" />
+    <file src="native\ufs.dll" target="native\ufs.dll" />
+    <file src="native\vcamp140.dll" target="native\vcamp140.dll" />
+    <file src="native\vccorlib140.dll" target="native\vccorlib140.dll" />
+    <file src="native\vcomp140.dll" target="native\vcomp140.dll" />
+    <file src="native\vcruntime140.dll" target="native\vcruntime140.dll" />
+    <file src="native\XUtility.dll" target="native\XUtility.dll" />
+  </files>
+</package>
